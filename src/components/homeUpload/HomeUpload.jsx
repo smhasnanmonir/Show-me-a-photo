@@ -52,9 +52,9 @@ const HomeUpload = () => {
   }, []);
   return (
     <div className="">
-      <div className="py-[25px] w-fit mx-auto">
+      <div className="py-[7%] w-fit mx-auto">
         <input
-          className="w-[250px]"
+          className="md:w-[250px] w-[200px]"
           onChange={(event) => {
             setFile(event.target.files[0]);
             console.log(event.target.files[0]);
@@ -74,7 +74,7 @@ const HomeUpload = () => {
       <div
         className="
           
-          grid grid-cols-4 place-content-center gap-3 md:px-[15%] mx-auto
+          grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 place-items-center gap-3 md:px-[15%] px-[5%] mx-auto
           
           "
       >

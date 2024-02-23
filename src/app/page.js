@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div className="w-fit pt-[15px] mx-auto text-center">
+      <div className="w-fit pt-[15px] mx-auto text-center px-[12%]">
         <h1 className="text-xl font-semibold">Send me a photo!</h1>
         <p>Whatever photo you upload will save in this website!</p>
       </div>
